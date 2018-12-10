@@ -12,8 +12,8 @@ import { enthusiasm } from './reducers';
 
 const store = createStore<StoreState, EnthusiasmAction, any, any>(enthusiasm, {
   enthusiasmLevel: 1,
-  languageName: 'TypeScript',
-  });
+  languageName: 'TypeScript'
+});
 
 ReactDOM.render(
   <Provider store={store}>

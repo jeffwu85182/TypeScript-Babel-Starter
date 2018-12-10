@@ -5,7 +5,9 @@ import { INCREMENT_ENTHUSIASM, DECREMENT_ENTHUSIASM } from '../constants/index';
 export function enthusiasm(
   state: StoreState = {
     enthusiasmLevel: 1,
-    languageName: 'TypeScript'
+    languageName: 'TypeScript',
+    name: 'jeff',
+    items: [1, 2, 3, 4, 5]
   },
   action: EnthusiasmAction
 ): StoreState {
